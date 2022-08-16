@@ -1,0 +1,17 @@
+16
+51C:\Users\Cao\Desktop\navigate website\src\style.css133051305122643231 0
+42C:\Users\Cao\Desktop\navigate website\dist133051305123513444 1
+41C:\Users\Cao\Desktop\navigate website\src133051174997240711 1
+59C:\Users\Cao\Desktop\navigate website\dist\bcg.f40d6362.jpg133051292829751559 0
+45C:\Users\Cao\Desktop\navigate website\src\img133051292827612453 1
+52C:\Users\Cao\Desktop\navigate website\src\index.html133051307245955585 0
+49C:\Users\Cao\Desktop\navigate website\src\main.js133051141578950610 0
+52C:\Users\Cao\Desktop\navigate website\src\style.less133051305122433188 0
+53C:\Users\Cao\Desktop\navigate website\src\img\bcg.jpg133051292395695161 0
+61C:\Users\Cao\Desktop\navigate website\dist\index.2cdaf7bc.css133051305123463430 0
+65C:\Users\Cao\Desktop\navigate website\dist\index.2cdaf7bc.css.map133051305123505295 0
+60C:\Users\Cao\Desktop\navigate website\dist\index.de158e3a.js133051273539214333 0
+64C:\Users\Cao\Desktop\navigate website\dist\index.de158e3a.js.map133051273539256773 0
+53C:\Users\Cao\Desktop\navigate website\dist\index.html133051304106783775 0
+71C:\Users\Cao\Desktop\navigate website\dist\navigate website.59712999.js133051273539063317 0
+75C:\Users\Cao\Desktop\navigate website\dist\navigate website.59712999.js.map133051273539083302 0

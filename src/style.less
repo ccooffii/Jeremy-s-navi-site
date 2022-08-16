@@ -1,0 +1,162 @@
+/*CSS RESET*/
+@color : rgba(62,61,64,0.5);   
+*{box-sizing: border-box;}
+*:before,*:after{box-sizing: border-box;}
+*{margin: 0; padding: 0;}
+ul,ol{list-style: none;}
+a{color: inherit; text-decoration: none;}
+.closeIcon{max-width: 100%;}
+/* STYLE */
+body{
+    background-color: #eee;
+    background-image: url(img/bcg.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+.searchForm {
+    // border:  1px solid black;
+    margin: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+    input {
+        width: 100%;
+        height: 40px;
+        padding: 0px 10px;
+        border: none;
+        // border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: rgba(50,50,51,0.6);
+        color: #bdc1c6;
+        border: 0.5px solid #bdc1c6;
+        font-size: 16px;
+    }
+    button {
+        color: #bdc1c6;
+        white-space: nowrap;
+        margin-left: 10px;
+        padding: 0 28px;
+        border: none;
+        border-radius: 4px;
+        background-color: 	
+        rgba(32,33,36,1);
+        color: #bdc1c6;
+        cursor: pointer;
+        font-size: 16px;
+        user-select: none;
+    }
+}
+.globalMain {
+    .siteList {
+        display: flex;
+        margin: 20px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            .site {
+                cursor: pointer;
+                width: 160px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color:@color;
+                // border: 1px solid black;
+                margin-bottom: 10px;
+                padding: 20px 0;
+                border-radius: 4px;
+                position: relative;
+                user-select: none;
+                color: #bdc1c6;
+                    .icon {
+                        width: 64px;
+                        height: 64px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 64px;
+                        text-transform: uppercase;
+                    }
+                    .link {
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                    .close {
+                        width: 14px;
+                        height: 14px;
+                        // font-weight: 300;
+                        position: absolute;
+                        right: 6px;
+                        top: 6px;
+                    }
+            }
+            .importButton{
+                display: flex;
+                width: 160px;
+                color: #bdc1c6;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: white;
+                border-radius: 4px;
+                padding: 20px 0;
+                background-color : @color;
+                user-select: none;
+                cursor: pointer;
+                    .addIcon{
+                        width: 64px;
+                        height: 64px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 64px;
+                    }
+                    .addText{
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+            .site:hover{
+                transform: scale(1.1);
+                transition: all,0.3s;
+            }
+            .importButton:hover{
+                transform: scale(1.1);
+                transition: all,0.3s;
+            }
+        }
+    }
+}
+@media(min-width: 500px) {
+    .globalHeader {
+        margin: 120px 0 100px;
+      }
+    .searchForm {
+        max-width: 670px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .globalMain{
+        max-width: 670px;
+        margin-left: auto;
+        margin-right: auto;
+        .siteList{
+            margin: 0px -10px 0px 0px;
+            justify-content: flex-start;
+            .site{
+                margin-right: 10px;
+                .close{
+                    display: none;
+                }
+            }
+            .site:hover{
+                .close{
+                    display: block;
+                }
+            }
+        }
+    }
+}
